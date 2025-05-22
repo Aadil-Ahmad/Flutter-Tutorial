@@ -1,5 +1,7 @@
 void main(){
    var conObj = Conditional();
+   conObj.ifStatement();
+   conObj.nestedIfCondition();
 
 }
 class Conditional{
@@ -16,6 +18,7 @@ class Conditional{
       print('Block 4');
     }
   }
+
    void nestedIfCondition(){
     if(a< 100){
       if(b<50){
